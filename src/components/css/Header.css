@@ -13,10 +13,7 @@
 
 .header-left{
     padding-left: 88px;
-    padding-top: 42px;
-    width: 170px;
-    height: 46.522px;
-    
+    padding-top: 42px;    
 }
 
 .header-left img{
@@ -33,10 +30,14 @@
     /* padding-left: 80px; */
     align-items: center;
     padding-right: 315px;
+    border-bottom: 8px solid #fff;
+    border-left: 15px solid #F3F3F3;
+    padding-bottom: 5px;
 }
 
 .header-right-top .navbar-elaqe {
     padding-right: 48px;
+    color: #000;
 }
 
 .header-right-top .navbar-liked{
@@ -46,7 +47,12 @@
     font-size: 19px;
 }
 
-.header-right-top .navbar-elaqe a:hover{
+
+.header-right-top .navbar-dil{
+    color: #909090;
+}
+
+.header-right-top .navbar-elaqe:hover{
     color: #4B3764;
 }
 
@@ -71,7 +77,7 @@
 
 
 .header-right-bottom{
-    padding-top : 38px;
+    padding-top : 18px;
     padding-right: 208px;
     display: flex;
     align-items: center;

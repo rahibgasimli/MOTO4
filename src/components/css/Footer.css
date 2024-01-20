@@ -1,0 +1,68 @@
+.footer-section{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #FDF7FF;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.footer-section h3{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-about{
+    display: flex;
+    flex-direction: column;
+    padding-right: 92px;
+    padding-left: 152px;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    padding-right: 92px;
+}
+
+.footer-qaydalar{
+    display: flex;
+    flex-direction: column;
+    padding-right: 92px;
+}
+
+.footer-elaqe{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-elaqe .footer-mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer-elaqe .footer-phone{
+    display: flex;
+    
+}
+
+.footer-elaqe .sosial-text{
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.footer-elaqe .footer-media a {
+    padding-right: 23px;
+    font-size: 15px;
+    color: #C1C1C1;
+}
