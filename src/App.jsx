@@ -13,7 +13,9 @@ function App() {
       <AddNewProduct/>
       {/* <About/> */}
       <Footer/>
-
+      <div className="s">
+        
+      </div>
 
     </>
   )
