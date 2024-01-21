@@ -282,5 +282,13 @@
 }
 
 
+.cards-car{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 105px;
+    margin-right: 108px;
+    margin-bottom: 80px;
+}
+
 
 

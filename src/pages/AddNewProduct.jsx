@@ -3,11 +3,19 @@ import productImage1 from "../images/product/product-image1.svg"
 import productImage2 from "../images/product/product-image2.svg"
 import productImage3 from "../images/product/product-image3.svg"
 import productImage4 from "../images/product/product-image4.svg"
+import Barter from '../images/newcard/barter.svg'
+import Salon from '../images/newcard/salon.svg';
+import Crown from '../images/newcard/medal-star.svg';
+import PreVsCredit from '../images/newcard/prevscredit.svg';
+import Car from '../images/newcard/Car.svg';
+import Like from '../images/newcard/like.svg'
+
+
 import carOwner from "../images/product/car-owner.svg"
 import { GoArrowRight } from "react-icons/go";
 import { VscArrowSwap } from "react-icons/vsc";
 
-
+import { Link } from "react-router-dom"
 
 import "../pages/css/AddNewProduct.css"
 const AddNewProduct = () => {
@@ -107,6 +115,339 @@ const AddNewProduct = () => {
         <h4>Bənzər elanlar</h4>
         <a href="#"><span>Hamısını göstər</span><GoArrowRight/></a>
       </div>
+
+      <div className="cards-car">
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>
+
+      <section className="firstCard">
+      <Link className="card-link" to="/elan">
+        <div className="card">
+          <div className="icons">
+            <div className="columns">
+              <div className="column1">
+                <img src={Crown} alt="prognoz" className="prognoz" />
+                <img src={Barter} alt="Barter" className="barter" />
+                <img src={Salon} alt="salon" className="salon" />
+              </div>
+
+              <div className="column2">
+                <img
+                  src={Like}
+                  alt="Beğeni"
+                  onClick=''
+                  className="likeBtn"
+                />
+                <img src={PreVsCredit} alt="Premium" className="preCredit" />
+              </div>
+            </div>
+          </div>
+
+          <img className="car-image" src={Car} alt="Araba Fotoğrafı" />
+
+          <div className="price">$50,000</div>
+          <div className="details">
+            <h2>Toyota Camry</h2>
+            <div className="info">
+              <span>2022</span>
+              <span className="card-benzin">Benzin</span>
+              <span className="card-km">20,000 KM</span>
+            </div>
+            <div className="info">
+              <span>Bakı, 01/19/2024</span>
+            </div>
+          </div>
+        </div>
+        </Link>
+      </section>  
+
+      </div>
+
 
     </section>
   )

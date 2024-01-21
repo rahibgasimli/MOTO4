@@ -25,7 +25,7 @@ const Header = () => {
         <div className="header-right-bottom">
           <Link to="/">Bütün elanlar</Link>
           <Link to="/haqqimizda">Haqqımızda</Link>
-          <a href="#">FAQ</a>
+          <Link to="/faq">FAQ</Link>
           <button className="yeni-elan-btn">Yeni elan<LuPlusCircle/></button>
         </div>
       </div>
