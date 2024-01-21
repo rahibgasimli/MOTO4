@@ -1,0 +1,33 @@
+.homeC{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.imgBar{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.navigation{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left:-823px ;
+    margin-bottom: -152px;
+    
+}
+.filter{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 800px;
+    justify-content: center;
+    position: absolute;
+}
+
+
+
+.bg-img img{
+    width: 100%;
+    height: 100%;
+}

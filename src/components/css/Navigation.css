@@ -1,0 +1,54 @@
+.containers{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buyCar{
+width: 121px;
+height: 47px;
+justify-content: center;
+padding: 12px;
+align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: white;
+}
+.buyCar:hover{
+    background-color: #663b9b;
+    color: white;
+}
+.news{
+    width: 121px;
+    height: 47px;
+    justify-content: center;
+    padding: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: #161717;
+}
+.news:hover{
+    background-color: white;
+    color: #161717;
+}
+.predicted{
+    width: 158px;
+    height: 47px;
+    justify-content: center;
+    padding: 12px;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: #161717;
+}
+.predicted:hover{
+    background-color: white;
+    color: #161717;
+}

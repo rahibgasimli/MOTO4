@@ -1,8 +1,10 @@
 import Header from "./components/Header"
-import './App.css'
 import Footer from "./components/Footer"
 import About from "./pages/About"
 import AddNewProduct from "./pages/AddNewProduct"
+
+import Home from "./pages/Home"
+import './App.css'
 
 function App() {
  
@@ -11,11 +13,8 @@ function App() {
     <>
       <Header/>
       <AddNewProduct/>
-      {/* <About/> */}
+      {/* <Home/> */}
       <Footer/>
-      <div className="s">
-        
-      </div>
 
     </>
   )
