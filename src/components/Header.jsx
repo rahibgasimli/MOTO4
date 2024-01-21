@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from '../images/header/logo.svg'
 import { CiHeart } from "react-icons/ci";
 import { BsPersonSquare } from "react-icons/bs";

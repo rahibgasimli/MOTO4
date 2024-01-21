@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { LuPhone } from "react-icons/lu";
 import { CiMail } from "react-icons/ci";
 import { BiLogoInstagramAlt } from "react-icons/bi";

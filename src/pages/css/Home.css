@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homeC{
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 300px;
+}
+.imgBar{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.bgImg{
+width: 1276px;
+height: 544px;
+margin-top: -307px;
+}
+.navigation{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left:-823px ;
+    margin-bottom: -152px;
+    margin-top: -393px;
+    
+}
+.filter{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 800px;
+    justify-content: center;
+    position: absolute;
+    /* margin-top: -392px; */
+}
+
+
+.cards{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 500px;
+}
+.card {
+    position: relative;
+    width: 288px;
+    height: 365px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.car-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 240px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust the width as needed */
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 50%; /* Adjust the width as needed */
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.details {
+    padding: 0 10px;
+}
+
+.details h2 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.details .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.details .info span {
+    font-size: 14px;
+}
+
+.selectCrePre {
+    display: flex;
+}
+
+.preCredit {
+    margin-top: 172px;
+    height: 24px;
+    width: 52px;
+}
+
+/* Add any other styles you need for specific classes or elements */
+
+/* Example styles for the like button */
+.likeBtn {
+    cursor: pointer;
+}
+
+/* Example styles for the premium and credit icons */
+.credit,
+.premium {
+    width: 20px;
+    height: 20px;
+    /* Add any other styles as needed */
+}

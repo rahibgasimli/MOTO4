@@ -1,4 +1,4 @@
-import React from 'react'
+
 import haqqimizdaPhoto from '../images/about/haqqimizda.svg'
 import planlarImages1 from '../images/about/planlar-images1.svg'
 import planlarImages2 from '../images/about/planlar-images2.svg'
@@ -41,7 +41,7 @@ const About = () => {
 
             <div className="planlar-text">
                 <h1>Gələcək Planlar</h1>
-                <p>Biz sistemimizi əlavə funksiyalarla təkmilləşdirməyi düşünürük. Onlardan biri də zaman sıralarının təhlilidir. Bu xüsusiyyət avtomobil alqı-satqısı prosesi ilə məşğul olan şəxslər üçün xüsusilə faydalıdır. Təsəvvür edin ki, daha sonra satmaq niyyəti ilə avtomobil almaqda maraqlısınız. Sistemimiz sizə aşağıdakı kimi məlumatlar təqdim edəcək: "Bu avtomobilin cari təxmini dəyəri $40,000-dır, lakin növbəti 2 ay ərzində onun 35,000$-a düşəcəyi proqnozlaşdırılır. Onu sizin üçün almaq məsləhət görülmür". Bu xüsusiyyət, zamanla avtomobilin dəyərindəki potensial dəyişkənliyi nəzərə alaraq istifadəçilərə məlumatlı seçim etmək imkanı verir.</p>
+                <p>Biz sistemimizi əlavə funksiyalarla təkmilləşdirməyi düşünürük. Onlardan biri də zaman sıralarının təhlilidir. Bu xüsusiyyət avtomobil alqı-satqısı prosesi ilə məşğul olan şəxslər üçün xüsusilə faydalıdır. Təsəvvür edin ki, daha sonra satmaq niyyəti ilə avtomobil almaqda maraqlısınız. Sistemimiz sizə aşağıdakı kimi məlumatlar təqdim edəcək: Bu avtomobilin cari təxmini dəyəri $40,000-dır, lakin növbəti 2 ay ərzində onun 35,000$-a düşəcəyi proqnozlaşdırılır. Onu sizin üçün almaq məsləhət gorulmur . Bu xüsusiyyət, zamanla avtomobilin dəyərindəki potensial dəyişkənliyi nəzərə alaraq istifadəçilərə məlumatlı seçim etmək imkanı verir.</p>
             </div>
 
         </div>
