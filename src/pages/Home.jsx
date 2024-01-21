@@ -11,12 +11,14 @@ import Salon from '../images/card/Salon label.svg';
 import Crown from '../images/card/crown.svg';
 import PreVsCredit from '../images/Card/Premium və kredit.svg';
 import Car from '../images/card/cardMain.svg';
+
+import { Link } from "react-router-dom";
+
 // import FilterShort from '../components/FilterShort'
 
 function Home() {
   return (
     <>
-<Header/>
       <div className="homeC">
         <div className="imgBar">
           <img src={BgImg} alt=""  className="bgImg"/>
@@ -205,7 +207,6 @@ function Home() {
       </section>
       
           </div>
-          <Footer/>
     </>
   );
 }

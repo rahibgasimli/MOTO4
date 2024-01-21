@@ -2,7 +2,7 @@
     color: var(--Primary-Black, #161717);
     font-size: 40px;
     font-weight: 600;
-    padding-left: 212px;
+    padding-left: 205px;
     padding-top: 60px;
 }
 
@@ -16,6 +16,8 @@
 .haqqimizda-top-left{
     display: flex;
     flex-direction: column;
+    text-align: right;
+    align-items: baseline;
 }
 
 .haqqimizda-top-left h6{
@@ -28,10 +30,8 @@
 }
 
 .haqqimizda-top-left .gelecek-planlar{
-    width: 100px;
-    padding-left: 90px;
+    padding-left: 88px;
 }
-
 
 .haqqimizda-top-right p {
     color: #000;

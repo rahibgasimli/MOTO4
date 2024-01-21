@@ -4,12 +4,15 @@ import { CiHeart } from "react-icons/ci";
 import { BsPersonSquare } from "react-icons/bs";
 import { LuPlusCircle } from "react-icons/lu";
 
+import { Link } from 'react-router-dom';
+
+
 import './css/Header.css'
 const Header = () => {
   return (
     <section className="header-section">
       <div className="header-left">
-        <div className="header-logo"><img src={logo} alt="" /></div>
+       <Link to="/"> <div className="header-logo"><img src={logo} alt="" /></div></Link>
       </div>
 
       <div className="header-right">
@@ -20,8 +23,8 @@ const Header = () => {
           <span className='giris' ><BsPersonSquare/><a href="#">Giriş</a></span>
         </div>
         <div className="header-right-bottom">
-          <a href="#">Bütün elanlar</a>
-          <a href="#">Haqqımızda</a>
+          <Link to="/">Bütün elanlar</Link>
+          <Link to="/haqqimizda">Haqqımızda</Link>
           <a href="#">FAQ</a>
           <button className="yeni-elan-btn">Yeni elan<LuPlusCircle/></button>
         </div>
