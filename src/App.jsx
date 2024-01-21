@@ -1,4 +1,5 @@
 import './App.css'
+import Faq from './pages/Faq'
 
 
 function App() {
