@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .container.hidden-filters section:not(:nth-child(-n+2)),
+  .container.hidden-filters .row-7 {
+    display: none;
+  }
+  
+  
   
     
   .container {

@@ -4,13 +4,12 @@ import Navigation from "../components/Navigation";
 import BgImg from '../images/Card/Elanlar.svg';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Premium from '../images/card/Premium.svg';
-import Credit from '../images/card/Kredit.svg';
 import Barter from '../images/card/Barter label.svg';
 import Salon from '../images/card/Salon label.svg';
-import Crown from '../images/card/crown.svg';
+import Crown from '../images/card/medal-star.svg';
 import PreVsCredit from '../images/Card/Premium və kredit.svg';
 import Car from '../images/card/cardMain.svg';
+import Like from '../images/Card/Favoriteicon=empty.svg'
 // import FilterShort from '../components/FilterShort'
 
 function Home() {
@@ -43,17 +42,12 @@ function Home() {
 
               <div className="column2">
                 <img
-                  src="./imgs/Favoriteicon=full.svg"
+                  src={Like}
                   alt="Beğeni"
                   onClick=''
                   className="likeBtn"
                 />
                 <img src={PreVsCredit} alt="Premium" className="preCredit" />
-
-                <div className="selectCrePre">
-                  <img src={Credit} alt="" className="credit" />
-                  <img src={Premium} alt="VIP" className="premium" />
-                </div>
               </div>
             </div>
           </div>
@@ -87,16 +81,11 @@ function Home() {
               <div className="column2">
                 <img
                   src="./imgs/Favoriteicon=full.svg"
-                  alt="Beğeni"
+                  alt={Like}
                   onClick=''
                   className="likeBtn"
                 />
                 <img src={PreVsCredit} alt="Premium" className="preCredit" />
-
-                <div className="selectCrePre">
-                  <img src={Credit} alt="" className="credit" />
-                  <img src={Premium} alt="VIP" className="premium" />
-                </div>
               </div>
             </div>
           </div>
@@ -129,17 +118,12 @@ function Home() {
 
               <div className="column2">
                 <img
-                  src="./imgs/Favoriteicon=full.svg"
+                  src={Like}
                   alt="Beğeni"
                   onClick=''
                   className="likeBtn"
                 />
                 <img src={PreVsCredit} alt="Premium" className="preCredit" />
-
-                <div className="selectCrePre">
-                  <img src={Credit} alt="" className="credit" />
-                  <img src={Premium} alt="VIP" className="premium" />
-                </div>
               </div>
             </div>
           </div>
@@ -172,17 +156,12 @@ function Home() {
 
               <div className="column2">
                 <img
-                  src="./imgs/Favoriteicon=full.svg"
+                  src={Like}
                   alt="Beğeni"
                   onClick=''
                   className="likeBtn"
                 />
                 <img src={PreVsCredit} alt="Premium" className="preCredit" />
-
-                <div className="selectCrePre">
-                  <img src={Credit} alt="" className="credit" />
-                  <img src={Premium} alt="VIP" className="premium" />
-                </div>
               </div>
             </div>
           </div>

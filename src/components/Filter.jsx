@@ -1,13 +1,18 @@
 import "../components/css/Filter.css";
 // import ArrDown from '../images/card/Barter label.svg'
 
-
+import  { useState } from 'react';
 
 function Filter() {
+  const [isFiltersHidden, setFiltersHidden] = useState(false);
 
+  const toggleFiltersVisibility = () => {
+    setFiltersHidden(!isFiltersHidden);
+  };
   return (
     <>
-      <div  className='container'>
+      <div  className={`container ${isFiltersHidden ? 'hidden-filters' : ''}`
+    }>
 
         <div className="inputForms">
           <section  >
@@ -245,12 +250,14 @@ function Filter() {
                 </div>
                 <div className="btn-cent">
                     <p className="reset">Sıfırla</p>
-                    <p className="hide" >Hide Filters<img src='' alt="" /></p>
+                    <p className="hide" onClick={toggleFiltersVisibility} >            {isFiltersHidden ? 'Show More Filters' : 'Hide Filters'}
+            <img src='' alt="" /></p>
           <button className="showResult">Elanları Göstər</button>
 
                 </div>
             </div>
             
+
      
           </section>
         </div>
